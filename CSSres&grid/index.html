@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Document</title>
+    <style>
+        body{
+            width: 95vw;
+            margin: auto;
+            text-align: center;
+            overflow-x: hidden;
+        }
+.container{
+ width: 100%;
+ height: fit-content;
+}
+.img{
+    width: 90% ;
+    height: 550px;
+    margin: 25px auto;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    margin: 20px auto;
+}
+.btn1{
+    background-color: blue;
+    color: white;
+}
+.holder{
+    width: 60%;
+    margin: auto;
+    height: 100px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.cards{
+    width: 100vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(2,250px);
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+}
+.inu{
+    width: 75%;
+    height: 40px;
+}
+.search button{
+    width: 25%;
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.leftimg{
+    width: 35%;
+}
+.right{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    background-color: aqua;
+}
+.right div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+@media (max-width:850px) {
+    .img{
+        width: 60%;
+        height: 300px;
+        position: relative;
+        left: 0;
+    }
+    .btn{
+        position: relative;
+        top: -180px;
+        right: -100px;
+    }
+    .cards{
+        grid-template-columns: repeat(3,250px);
+        grid-template-rows: repeat(2,200px);
+        gap: 10px;
+    }
+    .card{
+    border: 1px solid black;
+    width: 250px;
+    height: 200px;
+}
+    .leftimg{
+        display: none;
+    }
+    .right{
+        width: 100%;
+    }
+    .card7, .card6{
+        display: none;
+    }
+    .accordion{
+        display: none;
+    }
+}
+
+
+@media (max-width:450px) {
+    .footer{
+        display: none;
+    }
+    .cards{
+        grid-template-columns: repeat(2,250px);
+        grid-template-rows: repeat(3,200px);
+        gap: 10px;
+    }
+    .accordion{
+        display: block;
+        width: 90vw !important;
+        margin: auto;
+    }
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+  <img class="img" src="https://thumbs.dreamstime.com/z/man-lying-lap-young-woman-27456846.jpg" alt="">
+    </div>
+    <div>
+        <button class="btn btn1">Register Now</button>
+        <button class="btn ">Learn More</button>
+    </div>
+    <div class="holder">
+        cdsjhgsfdvuybfdgsjndfgsui
+    </div>
+    <h1>Meet Our Speakers</h1>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card card6">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+        <div class="card card7">
+            <img src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" width="130px" height="100px">
+            <h3>Husaojhib</h3>
+            <p>Brand Mqanagaer Pepso</p>
+        </div>
+
+
+    </div>
+    <h1>Lets stay in touch</h1>
+    <div class="search">
+        <input class="inu" type="email" placeholder="Enter Email">
+        <button>Subscribe</button>
+    </div>
+
+    <div class="footer">
+        <div class="leftimg">
+            <img src="https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg" alt="" width="100%" height="400px">
+        </div>
+        <div class="right">
+            <div>
+                <h3>SHop</h3>
+                <ul>fyjd</ul>
+                <ul>fdytg</ul>
+                <ul>jytjdfs</ul>
+                <ul>jytjdfsjyh</ul>
+            </div>
+            <div>
+                <h3>Sell</h3>
+                <ul>yjjfd</ul>
+                <ul>fhttd</ul>
+                <ul>dthfdfs</ul>
+            </div>
+            <div>
+                <h3>About</h3>
+                <ul>fdfhgt</ul>
+                <ul>fdthfdr</ul>
+                <ul>dfstfhd</ul>
+            </div>
+            <div>
+                <h3>Help</h3>
+                <ul>Help center</ul>
+                <ul>Privacy</ul>
+            </div>
+        </div>
+    </div>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+   Shop
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by defaur overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+  Sell
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by defaultverall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom y</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              About
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes cbody</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+  Help
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes cbody</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Help Center
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes cbody</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
